@@ -23,7 +23,7 @@ export default function Hero() {
               <span className="sr-only">Ridersnepaus</span>
               <img
                 alt=""
-                src="../src/assets/logo.png"
+                src="/assets/logo.png"
                 className="h-full w-auto"
               />
             </a>
