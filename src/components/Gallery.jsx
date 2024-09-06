@@ -3,15 +3,15 @@ import "lightbox.js-react/dist/index.css";
 
 function Gallery(props) {
   const gallery = [
-    { image: "../src/assets/6.jpg", className: "" },
-    { image: "../src/assets/7.jpg", className: "row-span-2" },
-    { image: "../src/assets/8.jpg", className: "" },
-    { image: "../src/assets/9.jpg", className: "row-span-2 md:row-span-1" },
-    { image: "../src/assets/10.jpg", className: "" },
-    { image: "../src/assets/11.jpg", className: "" },
-    { image: "../src/assets/12.jpg", className: "row-span-1 md:row-span-2" },
-    { image: "../src/assets/13.jpg", className: "" },
-    { image: "../src/assets/14.jpg", className: "col-span-2" },
+    { image: "/assets/6.jpg", className: "" },
+    { image: "/assets/7.jpg", className: "row-span-2" },
+    { image: "/assets/8.jpg", className: "" },
+    { image: "/assets/9.jpg", className: "row-span-2 md:row-span-1" },
+    { image: "/assets/10.jpg", className: "" },
+    { image: "/assets/11.jpg", className: "" },
+    { image: "/assets/12.jpg", className: "row-span-1 md:row-span-2" },
+    { image: "/assets/13.jpg", className: "" },
+    { image: "/assets/14.jpg", className: "col-span-2" },
   ];
   return (
     <div className="w-10/12 m-auto">
