@@ -10,10 +10,11 @@ function App(){
       <Gallery title ={"Gallery"} subtitle ={"Our latest pictures"}/>
       <Title title ={"Events"} subtitle ={"Our latest events and involvement"}/>
       <div className="flex flex-wrap justify-center mt-10 gap-4">
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Card eventTitle={"1974 AD 30th Anniversary Promotion Rally"} eventDescription={"Here goes our event description"} eventImage={"../src/assets/1.jpg"}/>
+        <Card eventTitle={"1974 AD 30th Anniversary Promotion Rally"} eventDescription={"Here goes our event description"} eventImage={"../src/assets/2.jpg"}/>
+        <Card eventTitle={"1974 AD 30th Anniversary Promotion Rally"} eventDescription={"Here goes our event description"} eventImage={"../src/assets/11.jpg"}/>
+        <Card eventTitle={"1974 AD 30th Anniversary Promotion Rally"} eventDescription={"Here goes our event description"} eventImage={"../src/assets/12.jpg"}/>
+        
       </div>
       
     </div>

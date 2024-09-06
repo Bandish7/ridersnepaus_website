@@ -12,8 +12,10 @@
   "dependencies": {
     "@headlessui/react": "^2.1.5",
     "@heroicons/react": "^2.1.5",
+    "lightbox.js-react": "^1.1.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "yet-another-react-lightbox": "^3.21.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
