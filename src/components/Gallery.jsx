@@ -1,5 +1,6 @@
 import { SlideshowLightbox } from "lightbox.js-react";
 import "lightbox.js-react/dist/index.css";
+import Title from "./Title";
 
 function Gallery(props) {
   const gallery = [
@@ -15,9 +16,7 @@ function Gallery(props) {
   ];
   return (
     <div className="w-10/12 m-auto">
-      <h1 class="mb-4 text-4xl text-center font-bold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-        {props.title}
-      </h1>
+      <Title title ={"Gallery"} subtitle ={"Our latest pictures"}/>
       <p class="mb-6 text-lg text-center font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
         {props.subtitle}
       </p>
